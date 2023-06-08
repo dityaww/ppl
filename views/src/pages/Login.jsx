@@ -1,4 +1,3 @@
-import Typography from '../assets/topography.svg'
 import LoginImg from '../assets/about-batik.png'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -27,7 +26,7 @@ const Login = () => {
     return(
         <>
             <section className='h-[100vh]'>
-                <div className='absolute left-60 top-20 z-50 bg-white border-neutral-200 w-2/3 h-[75%] border-2 shadow-lg rounded-xl overflow-hidden'>
+                <div className='absolute left-60 top-20 z-50 bg-white w-2/3 h-[75%] shadow-lg rounded-xl overflow-hidden'>
                     <div className='grid grid-cols-2 h-full'>
                         <div className='mx-28 my-20'>
                             <div className="top-content flex flex-col justify-center items-center gap-3 mb-8">
@@ -80,7 +79,7 @@ const Login = () => {
                     </div>
                 </div>
 
-                <div className="bg-repeat h-[100vh] opacity-20" style={{backgroundImage: `url(${Typography})`}}></div>
+                <div className="bg-pattern bg-repeat h-[100vh]"></div>
             </section>
 
             {/* <section className="h-[100vh] grid grid-cols-2">
