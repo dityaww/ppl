@@ -3,7 +3,7 @@
 import Navbar from '../components/Navbar'
 import Batikbg from '../assets/batik-img.png'
 import Typography from '../assets/topography.svg'
-
+import Footer from '../components/Footer'
 
 const HomePage = () => {
     return(
@@ -21,6 +21,8 @@ const HomePage = () => {
             {/* <h1>Halaman Home</h1> */}
 
             <img src={Batikbg} width='100%' alt="no-img" />
+
+            <Footer />
         </>
     )
 }

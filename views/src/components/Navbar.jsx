@@ -3,7 +3,7 @@ import LogoBatik from '../assets/logo-batik.png'
 
 const Navbar = () => {
     return(
-        <nav className='h-24 flex justify-between px-20'>
+        <nav className='h-24 flex justify-between px-20 shadow-sm'>
             <img src={LogoBatik} className='w-100 scale-150' alt="image_error" />
 
             <div className='flex gap-10'>
