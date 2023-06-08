@@ -5,8 +5,8 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import HomePage from './pages/HomePage'
 import About from './pages/About'
+import Product from './pages/Product'
 
-import './App.css'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/about' element={<About />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/product' element={<Product />} />
       </Routes>
     </>
   )
