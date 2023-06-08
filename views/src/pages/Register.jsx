@@ -6,6 +6,7 @@ const Register = () => {
             <Navbar />
 
             <h1>Ini Register Page</h1>
+            <h1>Ini Register Page</h1>
         </>
     )
 }
