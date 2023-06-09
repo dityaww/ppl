@@ -13,6 +13,7 @@ const HomePage = () => {
             <div className='h-72'>
                 <div className='absolute mx-20 mt-10 text-2xl text-slate-600'>
                     <p>Batik is a culture <br /> that must <br /> be preserved.</p>
+                    <p>Ini Home Page</p>
                 </div>
                 <div className="bg-repeat h-72 opacity-20" style={{backgroundImage: `url(${Typography})`}}>
                 </div>
