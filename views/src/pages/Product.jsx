@@ -5,6 +5,7 @@ const Product = () => {
         <>
             <Navbar />
             <h1>Product Page</h1>
+            <h1>Product Page 1</h1>
         </>
     )
 }
