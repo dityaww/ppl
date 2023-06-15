@@ -52,7 +52,7 @@ const Login = () => {
                     type="text"
                     name="username"
                     id="username"
-                    value={datas.username}
+                    value={datas.username || ""}
                     onChange={handleChange}
                     required
                   />
@@ -70,7 +70,7 @@ const Login = () => {
                     type="password"
                     name="password"
                     id="password"
-                    value={datas.password}
+                    value={datas.password || ""}
                     onChange={handleChange}
                     required
                   />
