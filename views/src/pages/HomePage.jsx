@@ -21,7 +21,13 @@ const HomePage = () => {
 
   useEffect(() => {
     const dataProducts = async () => {
-      const response = await fetch("https://fakestoreapi.com/products?limit=4");
+      const response = await fetch(
+        "https://fakestoreapi.com/products?limit=4"
+        // {
+        //   method: "GET",
+        //   mode: "no-cors",
+        // }
+      );
       const json = await response.json();
       console.log(json);
       return json;
@@ -218,6 +224,15 @@ const HomePage = () => {
                 </div>
               );
             })}
+          </div>
+        ) : data.length === 0 ? (
+          <div className="pb-10 flex gap-2 animate-pulse">
+            <p className="px-3 py-0.5 bg-red-500 text-neutral-100">
+              Tidak ada data!
+            </p>
+            <p className="px-3 py-0.5 bg-red-500 text-neutral-100">
+              Server Error!
+            </p>
           </div>
         ) : (
           <div className="grid md:grid-cols-4 md:gap-10 gap-2 md:pb-28 pb-14">
